@@ -16,9 +16,14 @@ The Evolution Clause applies to all derivative works, ensuring the following con
 ## AIDL (Artificial Intelligence Data Language) 
 Version 1.0 introduces a transformative, language-agnostic approach to AI data processing, training, and inference. Designed to optimize computational efficiency and future-proof system evolution, this abstraction layer delivers up to 2-25x reductions in compute cost and energy usage across processing layers. The core system is scalable across multiple platforms, including CPUs, GPUs, and RISC-V.
 
+Compatible with C++, Rust, Python, NodeJS, CUDA & Risk- RVV
+Works with and/or alongside SQL, NoSQL & Vector Database(s)
+
 Supports ingestion, sorting, training, pruning, refinement, inference and output
 
-This paradigm of processing leverages o to the power of n reduction in compute (that scales across layers for vast compute and energy savings).
+This paradigm of processing leverages o to the power of n reduction in compute 
+(that scales across layers for vast compute and energy savings).
+
 Initial basic mathematical proof available via request.
 
 This is its own abstraction (forget deepseek or qwen entirely / this predates them)
