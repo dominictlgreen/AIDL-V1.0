@@ -46,3 +46,10 @@ This paradigm of processing leverages o to the power of n reduction in compute h
 Initial basic mathematical proof available via request.
 
 This is its own abstraction (forget deepseek or qwen entirely / this predates them)
+
+AIDL represents a novel layer of abstraction developed independently, built on fundamental design concepts that precede and surpass conventional paradigms. Unlike frameworks tied to specific architectures or pre-defined processing workflows, AIDL focuses on system-agnostic adaptability and scalable, real-time optimization. Its modular design ensures seamless integration across environments, regardless of chip type, software language, or data format.
+
+By decoupling core computational processes from traditional constraints, AIDL enables dynamic, multi-directional scaling—handling ingestion, sorting, training, refinement, inference, and output efficiently while preserving future-proof extensibility. Its foundational approach differs conceptually from recent architectures designed for current-gen applications, as AIDL’s abstraction allows for evolution beyond present limitations.
+
+In short, AIDL is not a derivative, but an original framework designed to address the emerging complexities of compute systems at their core.
+
