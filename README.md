@@ -20,11 +20,13 @@ Compatible with C++, Rust, Python, NodeJS, CUDA & Risk- RVV
 
 Works with and/or alongside SQL, NoSQL & Vector Database(s)
 
+
 Supports ingestion, sorting, training, pruning, refinement, inference and output
 
 This paradigm of processing leverages o to the power of n reduction in compute 
 
 (that scales across layers for vast compute and energy savings).
+
 
 Initial basic mathematical proof available via request.
 
