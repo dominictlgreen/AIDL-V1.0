@@ -23,10 +23,25 @@ Works with and/or alongside SQL, NoSQL & Vector Database(s)
 
 Supports ingestion, sorting, training, pruning, refinement, inference and output
 
-This paradigm of processing leverages o to the power of n reduction in compute 
+This paradigm of processing leverages o to the power of n reduction in compute horizontally and vertically
 
 (that scales across layers for vast compute and energy savings).
 
+-- -- -- -- 
+
+## 1.	Horizontal Reduction:
+
+•	AIDL optimizes across distributed systems, reducing unnecessary inter-node communications and redundant operations when working with large datasets across multiple processors (CPUs/GPUs).
+
+•	For example, parallel inference tasks can be coordinated in such a way that reduces re-computation or redundant paths, improving compute efficiency on cloud-scale systems.
+
+ ## 2.	Vertical Reduction:
+
+ •	Inside each stage of processing (ingestion, training, refinement, output), AIDL optimizes internal operations (e.g., sorting, lookup, pruning) to reduce O(n)-class operations into lower-complexity ones wherever possible.
+
+ •	This could include things like pruning suboptimal paths in training early, minimizing dataset passes, or clustering similar operations.
+
+-- -- -- -- 
 
 Initial basic mathematical proof available via request.
 
