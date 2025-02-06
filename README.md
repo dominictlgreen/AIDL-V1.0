@@ -27,6 +27,8 @@ Version 1.0 introduces a transformative, language-agnostic approach to AI data p
 
 This paradigm leverages significant reductions in compute complexity, scaling both horizontally and vertically to achieve vast efficiency gains in large-scale deployments.  
 
+**O(n^k)-class reductions in compute complexity**
+
 ---
 
 ## Key Processing Reductions  
