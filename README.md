@@ -62,7 +62,7 @@ AIDL is powered by **meta-functions**, the high-level abstraction responsible fo
 1. **INGEST:** Handles the intake of diverse data formats and applies conversion maps to standardize inputs for downstream processing.  
 2. **DIGEST:** Converts raw inputs into intermediate formats suitable for further processing.  
 3. **GRIND:** The core processing meta-function responsible for refining data through context-based transformations and filtering redundant information.
-4. **VFLOW:**Forward pass, recursive and multi-configurable iterative looping for data in various stages.   
+4. **VFLOW:** Forward pass, recursive and multi-configurable iterative looping for data in various stages.   
 5. **VROUTE:** Dynamically routes data through optimal processing layers to maximize efficiency.  
 6. **Pruning & Feeback:** Removes suboptimal or redundant paths early, reducing the need for unnecessary processing.  
 
