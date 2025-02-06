@@ -57,17 +57,18 @@ In short, AIDL is not a derivative but an original framework designed to address
 
 AIDL is powered by **meta-functions**, the high-level abstraction responsible for orchestrating operations across layers and sub-systems. Meta-functions **interface seamlessly with databases, hardware accelerators, and dynamic workflows** without needing platform-specific logic.  
 
-### Core Meta-Functions  
+### Core Meta-Functions (partial public release overview) 
 
-1. **Ingestor:** Handles the intake of diverse data formats and applies conversion maps to standardize inputs for downstream processing.  
-2. **Digester:** Converts raw inputs into intermediate formats suitable for further processing.  
-3. **Grinder:** The core processing meta-function responsible for refining data through context-based transformations and filtering redundant information.  
-4. **Router:** Dynamically routes data through optimal processing layers to maximize efficiency.  
-5. **Pruner:** Removes suboptimal or redundant paths early, reducing the need for unnecessary processing.  
+1. **INGEST:** Handles the intake of diverse data formats and applies conversion maps to standardize inputs for downstream processing.  
+2. **DIGEST:** Converts raw inputs into intermediate formats suitable for further processing.  
+3. **GRIND:** The core processing meta-function responsible for refining data through context-based transformations and filtering redundant information.
+4. **VFLOW:**Forward pass, recursive and multi-configurable iterative looping for data in various stages.   
+5. **VROUTE:** Dynamically routes data through optimal processing layers to maximize efficiency.  
+6. **Pruning & Feeback:** Removes suboptimal or redundant paths early, reducing the need for unnecessary processing.  
 
 ---
 
-## Sub-Functions and Modular Interoperability  
+## Sub-Functions and Modular Interoperability (partial public release overview)  
 
 Sub-functions execute atomic operations and are designed to be **interoperable across various hardware, software, and database environments.** This modularity ensures that AIDL can switch seamlessly between:  
 
@@ -75,10 +76,6 @@ Sub-functions execute atomic operations and are designed to be **interoperable a
 - **Databases:** SQL, NoSQL, MongoDB, vector databases, and more.  
 - **Languages:** Rust, Python, NodeJS, CUDA, and others.  
 
-### Examples of Common Sub-Functions  
-- **Parallel Sorter:** Efficiently sorts large data clusters.  
-- **Memory Optimizer:** Manages in-memory caching and pruning to ensure efficient intermediate storage.  
-- **Contextual Indexer:** Dynamically indexes relationships within the data, optimizing retrieval and lookups.  
 
 ---
 
