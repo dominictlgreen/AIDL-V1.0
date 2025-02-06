@@ -18,9 +18,11 @@ Select vector db and initial vector_lake for advanced benchmarking ()
 
 Test and benchmark ingestion time(s) for xyz-software a into mongodb in aidl format  
 Test and benchmark ingestion time(s) for xyz-software b into mongodb in aidl format  
-Test and benchmark ingestion time(s) for xyz-software c into mongodb in aidl format  
+Test and benchmark ingestion time(s) for xyz-software c into mongodb in aidl format  <br>
+
 Test and benchmark ingestion time(s) for INGEST into mongodb in aidl format  
-Test for INGEST in Rust, Python and NodeJS for comparison  
+Test for INGEST in Rust, Python and NodeJS for comparison  <br>
+
 FOREACH test ingestion with and without conversion mapping  
 Note and log all times to add to research map  
 
