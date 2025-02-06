@@ -8,7 +8,7 @@
 
 Select vector db and initial data_store for benchmarking - Complete Mon 3rd Feb 2025  
 MongoDB chosen for json and vector function(s) support (for Phase 1, 2 and 3) - Complete Wed 5th Feb 2025  
-Select / consider vector db and initial vector_lake for advanced benchmarking (pinecone, milvus etc)  
+Consider vector db and initial vector_lake for advanced benchmarking (pinecone, milvus etc)  
 
 ---
 
