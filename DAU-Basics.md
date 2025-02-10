@@ -1,5 +1,5 @@
 
-# DAU Estimations and Monetization Potential
+# DAU Basics - Estimations and Monetization Potential
 
 ## Estimated Daily Active Users (DAU)
 
